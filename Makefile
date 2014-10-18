@@ -1,9 +1,9 @@
 
-INSTALLDIR = /usr/local/bin
+DESTDIR = /usr/local/bin
 
 all:
 	@echo "Nothing to build, see install rule"
 
 install:
-	cp scripts/* $(INSTALLDIR)
+	cp scripts/* $(DESTDIR)
 
