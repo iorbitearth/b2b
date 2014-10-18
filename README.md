@@ -1,7 +1,7 @@
 b2b
 ===
 
-Simple bash scripts to perform common base conversions (base to base) on the command line
+Simple bash scripts to perform common base to base number conversions on the command line
 
 #### Usage
 ```b2b``` allows for quick base conversions on the fly in your terminal.
@@ -20,7 +20,7 @@ DEADBEEF
 
 Convert hex numbers to octal:
 ```bash
-$  h2o B2B
+$ h2o B2B
 2859
 ```
 
