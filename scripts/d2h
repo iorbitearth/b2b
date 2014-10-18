@@ -1,0 +1,7 @@
+#!/bin/bash
+
+##
+## Convert decimal value to hex
+##
+echo "obase=16;ibase=10; $@" | bc
+

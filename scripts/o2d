@@ -1,0 +1,7 @@
+#!/bin/bash
+
+##
+## Convert octal value to decimal
+##
+echo "obase=10;ibase=8; $@" | bc
+

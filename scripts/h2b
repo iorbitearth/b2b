@@ -1,0 +1,7 @@
+#!/bin/bash
+
+##
+## Convert hex value to binary
+##
+echo "obase=2;ibase=16; $@" | bc
+
