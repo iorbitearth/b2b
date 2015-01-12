@@ -1,10 +1,8 @@
 b2b
 ===
-
-Simple bash scripts to perform common base to base number conversions on the command line
+```b2b``` is a collection of simple bash scripts that provide quick base conversions on the fly in your terminal.
 
 #### Usage
-```b2b``` allows for quick base conversions on the fly in your terminal.
 
 Convert decimal numbers to binary (d2b):
 ```bash
@@ -34,7 +32,10 @@ The ```b2b``` scripts should run in any Linux/bash environment. First install th
 
 
 #### Install
-Copy the scripts to the path of your preference. I typically install custom bash scripts to ```/usr/local/bin```, so I've provided a Makefile to do so:
+
+Arch Linux users can install ```b2b``` from the [AUR](https://aur.archlinux.org/packages/b2b/).
+
+Otherwise, copy the scripts to the path of your preference. I typically install custom bash scripts to ```/usr/local/bin```, so a Makefile is provided to do so:
 
 ```
 # make install
