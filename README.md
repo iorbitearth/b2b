@@ -1,4 +1,4 @@
-b2b
+Base to base converter
 ===
 ```b2b``` (base to base) is a bash script that provides quick base conversions on the fly in your terminal.
 
