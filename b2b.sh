@@ -158,9 +158,6 @@ parse_args() {
         esac
         shift
     done
-
-    echo "conversion: $conversion"
-    echo "value: $value"
 }
 
 
@@ -170,7 +167,18 @@ parse_args() {
 main() {
     case "$conversion" in
         b2d)    b2d $value;;
-        *)      echo "Option missing or not recognized";;
+        b2h)    b2h $value;;
+        b2o)    b2o $value;;
+        d2b)    d2b $value;;
+        d2h)    d2h $value;;
+        d2o)    d2o $value;;
+        h2b)    h2b $value;;
+        h2d)    h2d $value;;
+        h2o)    h2o $value;;
+        o2b)    o2b $value;;
+        o2h)    o2h $value;;
+        o2d)    o2d $value;;
+        *)      echo "ERROR: invalid argument";;
     esac
 }
 
