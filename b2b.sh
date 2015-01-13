@@ -1,19 +1,13 @@
 #!/bin/bash
 
 ##
-## A POSIX variable - reset in case getopts has been used previously in the shell.
-##
-OPTIND=1
-
-##
 ## Initialize variables
 ##
 conversion=""
 value=""
 
-
 ##
-##
+## Usage output function
 ##
 usage() {
     echo
