@@ -1,7 +1,0 @@
-#!/bin/bash
-
-##
-## Convert binary value to octal
-##
-echo "obase=8;ibase=2; $@" | bc
-

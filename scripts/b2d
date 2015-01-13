@@ -1,7 +1,0 @@
-#!/bin/bash
-
-##
-## Convert binary value to decimal
-##
-echo "obase=10;ibase=2; $@" | bc
-

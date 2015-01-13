@@ -1,7 +1,0 @@
-#!/bin/bash
-
-##
-## Convert octal value to hex
-##
-echo "obase=16;ibase=8; $@" | bc
-
